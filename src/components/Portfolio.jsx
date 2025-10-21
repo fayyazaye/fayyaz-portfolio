@@ -78,7 +78,7 @@ export default function Portfolio(){
 
           <div className="flex items-center justify-center">
             <div className="w-full max-w-md rounded-2xl overflow-hidden shadow-xl">
-              <img src="Images/pfp.png" alt="Fayyaz Ahmad" className="w-full h-96 object-cover" />
+              <img src="/Images/pfp.png" alt="Fayyaz Ahmad" className="w-full h-96 object-cover" />
               <div className="p-5 bg-white dark:bg-gray-800">
                 <div className="text-sm font-medium">Fayyaz Ahmad</div>
                 <div className="text-xs opacity-80">UI / UX Designer • Video Editor • Medical Biller</div>
@@ -146,7 +146,7 @@ export default function Portfolio(){
           <h2 className="text-2xl font-bold">Certificates</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-gray-50 dark:bg-gray-900/40 rounded-lg border border-gray-100 dark:border-gray-700">
-            <a href="Images/Bytewise UI UX Internship.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Images/Bytewise UI UX Internship.pdf" target="_blank" rel="noopener noreferrer">
               <img src="Images\bytewisefellowship.png" alt="certificate" className="w-full h-32 object-cover rounded"/>
               <div className="mt-3 text-sm">Bytewise Fellowship — UI/UX Design</div>
             </a>
