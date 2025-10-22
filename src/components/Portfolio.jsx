@@ -6,7 +6,7 @@ const projects = [
   { id: 'p3', title: 'E‑commerce Landing', desc: 'High-conversion landing page and micro-interactions for product discovery.', image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=3', behance: 'https://www.behance.net/' }
 ]
 
-const skills = ['Figma', 'UI Design', 'UX Research', 'Figma & Prototyping', 'Interaction Design', 'Design Systems', 'Usability Testing']
+const skills = ['Figma', 'Adobe XD', 'VS Code', 'Adobe Premier Pro', 'Wireframing', 'Prototyping', 'Usability Testing', 'User Centered Design', 'UX Research','Team Collaboration']
 
 export default function Portfolio(){ 
   const [dark, setDark] = useState(false)
@@ -56,8 +56,8 @@ export default function Portfolio(){
         <section id="home" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="uppercase text-sm tracking-wide text-warm1 font-semibold">UI / UX Designer</p>
-            <h1 className="mt-4 text-4xl md:text-5xl font-extrabold leading-tight">Hi, I’m Fayyaz — crafting warm, human-centred digital experiences.</h1>
-            <p className="mt-6 text-lg opacity-90">I design usable interfaces and meaningful interactions backed by research and strong visual systems. I combine product thinking with pixel-perfect UI to deliver measurable results.</p>
+            <h1 className="mt-4 text-4xl md:text-5xl font-extrabold leading-tight">Hi, I’m Fayyaz!</h1>
+            <p className="mt-6 text-lg opacity-90">I design both Web and Mobile Application Designs that are simple, minimal, and easy to interact with. My main focus is understanding what users actually need and turning that into a Minimal and interactive design.</p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="/resume.pdf" download className="inline-flex items-center gap-2 px-4 py-2 rounded-md shadow-sm border border-transparent bg-gradient-to-r from-warm1 to-warm3 text-white">Download Resume</a>
@@ -67,23 +67,17 @@ export default function Portfolio(){
 
             <div className="mt-8">
               <h4 className="text-sm uppercase tracking-wide text-gray-500 dark:text-gray-400">Quick facts</h4>
-              <ul className="mt-3 grid grid-cols-2 gap-3 text-sm">
-                <li>📍 Based in Pakistan</li>
-                <li>🎓 BS Software Engineering</li>
-                <li>🏫 D. Pharmacy — Swabi University (studying)</li>
-                <li>🏆 Bytewise Fellowship — UI/UX Track</li>
+              <ul className="mt-3 grid gap-3 text-sm">
+                <li>📍 Islamabad, Pakistan</li>
+                <li>🎓 BS Software Engineering</li>                
+                <li>📧 itsfayyazahmaddkhan@gmail.com</li>
               </ul>
             </div>
           </div>
 
           <div className="flex items-center justify-center">
             <div className="w-full max-w-md rounded-2xl overflow-hidden shadow-xl">
-              <img src="/Images/pfp.png" alt="Fayyaz Ahmad" className="w-full h-96 object-cover" />
-              <div className="p-5 bg-white dark:bg-gray-800">
-                <div className="text-sm font-medium">Fayyaz Ahmad</div>
-                <div className="text-xs opacity-80">UI / UX Designer • Video Editor • Medical Biller</div>
-                <div className="mt-3 text-sm opacity-90">I build delightful interfaces and polished case studies focused on clarity and conversion.</div>
-              </div>
+              <img src="/Images/pfp.png" alt="Fayyaz Ahmad" className="w-full h-full object-cover" />              
             </div>
           </div>
         </section>
