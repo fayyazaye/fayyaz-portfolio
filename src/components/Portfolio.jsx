@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
 const projects = [
-  { id: 'p1', title: 'VORA-Personal Report Assistant', desc: 'Redesign of a banking app to improve onboarding and transfers.', image: '/Images/Cover.png', behance: 'https://www.behance.net/gallery/237333249/VORA-Personal-Report-Assistant' },
-  { id: 'p2', title: 'Analytics Dashboard', desc: 'Dashboard UI for tracking key product metrics with clear hierarchy.', image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2', behance: 'https://www.behance.net/' },
+  { id: 'p1', title: 'VORA-Personal Report Assistant', desc: 'A Personal Report Assistant that helps in generating report using voice.', image: '/Images/Cover.png', behance: 'https://www.behance.net/gallery/237333249/VORA-Personal-Report-Assistant' },
+  { id: 'p2', title: 'SpeakEasy - Learn the Easy Way', desc: 'SpeakEasy offers to learn different languages via practicing reading, listening, speaking and writing exercises.', image: '/Images/speakeasycover.png', behance: 'https://www.behance.net/gallery/237867181/SpeakEasy-Learn-the-Easy-Way' },
   { id: 'p3', title: 'E‑commerce Landing', desc: 'High-conversion landing page and micro-interactions for product discovery.', image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=3', behance: 'https://www.behance.net/' }
 ]
 
@@ -121,7 +121,7 @@ export default function Portfolio(){
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects.map((p, i) => (
               <article key={p.id} className="rounded-xl overflow-hidden bg-white dark:bg-gray-800 shadow-md border border-gray-100 dark:border-gray-700">
-                <img src={p.image} alt={p.title} className={`w-full h-44 object-contain block ${i === 0 ? 'bg-[#18182d]' : 'bg-transparent'}`}/>
+                <img src={p.image} alt={p.title} className={`w-full h-44 object-cover block`}/>
                 <div className="p-5">
                   <h3 className="font-semibold text-lg">{p.title}</h3>
                   <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">{p.desc}</p>
