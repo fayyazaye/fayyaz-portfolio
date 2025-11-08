@@ -146,9 +146,18 @@ export default function Portfolio(){
             </a>
             </div>
             <div className="p-4 bg-gray-50 dark:bg-gray-900/40 rounded-lg border border-gray-100 dark:border-gray-700">
-              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6" alt="certificate" className="w-full h-32 object-cover rounded"/>
-              <div className="mt-3 text-sm">Relevant course or certificate placeholder</div>
+            <a href="/Images/Coursera Foundations of UX Design.pdf" target="_blank" rel="noopener noreferrer">
+              <img src="Images\fouxd.png" alt="certificate" className="w-full h-32 object-cover rounded"/>
+              <div className="mt-3 text-sm">Coursera - Foundations of UX Design</div>
+            </a>
             </div>
+            <div className="p-4 bg-gray-50 dark:bg-gray-900/40 rounded-lg border border-gray-100 dark:border-gray-700">
+            <a href="/Images/Coursera Build Dynamic UI.pdf" target="_blank" rel="noopener noreferrer">
+              <img src="Images\bdui.png" alt="certificate" className="w-full h-32 object-cover rounded"/>
+              <div className="mt-3 text-sm">Coursera - Build Dynamic UI</div>
+            </a>
+            </div>
+            
           </div>
         </section>
 
@@ -176,7 +185,7 @@ export default function Portfolio(){
           </div>
         </section>
 
-        <footer className="text-center py-6 text-sm opacity-80">© {new Date().getFullYear()} Fayyaz Ahmad — UI/UX Designer. Built with React + Tailwind.</footer>
+        <footer className="text-center py-6 text-sm opacity-80">© {new Date().getFullYear()} Fayyaz Ahmad</footer>
       </main>
     </div>
   )
