@@ -9,7 +9,7 @@ const projects = [
 const skills = ['Figma', 'Adobe XD', 'VS Code', 'Adobe Premier Pro', 'Wireframing', 'Prototyping', 'Usability Testing', 'User Centered Design', 'UX Research','Team Collaboration']
 
 export default function Portfolio(){ 
-  const [dark, setDark] = useState(false)
+  const [dark, setDark] = useState(true)
   useEffect(()=>{
     const root = document.documentElement
     if(dark) root.classList.add('dark'); else root.classList.remove('dark')
